@@ -24,10 +24,20 @@ color: #111
     background-size: cover;
 }
 
+.dimlight
+{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+
 .banner .content
 {
     max-width: 900px;
     text-align: center;
+    z-index: 1;
 }
 
 .banner .content h2
@@ -46,7 +56,8 @@ color: #111
 {
     font-size: 1em;
     color: #fff;
-    background: #ff0157;
+    background: #ff114d;
+    border-radius: 20px;
     display: inline-block;
     padding: 10px 30px;
     margin-top: 20px;
@@ -97,7 +108,7 @@ header.sticky .logo
 
 header .logo span
 {
-    color: #ff0157
+    color: #ff114d
 }
 
 header .navigation
@@ -126,7 +137,7 @@ header.sticky .navigation li a
 
 header .navigation li a:hover
 {
-    color: #ff0157;
+    color: #ff114d;
 }
 
 section
@@ -157,7 +168,7 @@ section
 
 .titleText span
 {
-    color: #ff0157;
+    color: #ff114d;
     font-weight: 700;
     font-size: 1.5em;
 }
@@ -201,8 +212,8 @@ section
 {
     width: 340px;
     margin: 20px;
-    border: 15px solid #fff;
-    box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+    border: 10px solid #fff;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.253);
 }
 
 .menu .content .box .imgBx
@@ -224,7 +235,8 @@ section
 
 .menu .content .box .text
 {
-    padding: 15px 0 5px;
+    padding: 15px 10px 5px;
+    text-align: center;
 }
 
 .menu .content .box .text h3
@@ -344,7 +356,7 @@ color: #fff;
     margin-top: 20px;
     color: #111;
     font-size: 1em;
-    color:  #ff0157;
+    color:  #ff114d;
     font-weight: 600;
 }
 
@@ -394,7 +406,7 @@ color: #fff;
 {
     font-size: 1em;
     color: #fff;
-    background: #ff0157;
+    background: #ff114d;
     display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
@@ -420,7 +432,7 @@ color: #fff;
 
 .copyrightText a
 {
-    color: #ff0157;
+    color: #ff114d;
     font-weight: 500;
     text-decoration: none;
 }
